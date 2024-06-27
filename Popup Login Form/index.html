@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popup Login Form</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="center">
+      <button id="show-login">Login</button>
+    </div>
+    <div class="popup active">
+      <div class="close-btn">&times;</div>
+      <form>
+        <h2>Log in</h2>
+        <div class="form-element">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter Email" />
+        </div>
+        <div class="form-element">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter Password" />
+        </div>
+        <div class="form-element-check">
+          <input type="checkbox" id="remember-me" />
+          <label for="remember-me">Remember me</label>
+        </div>
+        <div class="form-element">
+          <button>Sign in</button>
+        </div>
+        <div class="form-element">
+          <a href="#">Forgot password?</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
